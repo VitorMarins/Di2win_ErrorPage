@@ -1,5 +1,6 @@
 // import React from 'react';
 import LogoDi2win from './../../assets/logo_di2win.svg';
+import IconSino from './../../assets/sino1.png';
 
 export default function Header() {
   return (
@@ -7,7 +8,12 @@ export default function Header() {
       <div className="flex items-center gap-4">
         <img src={LogoDi2win} alt="Logo Di2win" className="h-10 w-auto" />
         <h1 className="text-2xl font-bold text-gray-800">Di2win</h1>
+        
       </div>
+      <div>  <div className="relative">
+        <img src={IconSino} alt="Notificações" className="h-6  w-6 text-white" />
+        {/* Você pode adicionar um dropdown ou contador aqui depois */}
+      </div></div>
     </header>
   );
 }
